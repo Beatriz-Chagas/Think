@@ -1,18 +1,70 @@
-# ThINK
-### Descrição
- Platarforma em React e NodeJS com banco de dados em MySQl voltada para a captação de clientes, agendamento automatico e gerenciamento de um estudio de tatuagens.
- A admnistração fica a cargo do tatuador ou de demais responsáveis cadastrados pelo administrador, os serviços oferecidos na rota administrativa são a listagem de clientes cadastrados, agendamento e histórico de sessão de clientes, configuração de portfólio e flashtattos, cadastramento de novos administradores e estoque de materiais disponíveis. 
- Já na visão dos clientes é possivel visualizar o portfólio do tatuador, se cadastrar, agendar uma sessão para uma tatuagem já existente com um valor fixo por tamanho ou a montagem de um orçamento baseado em informações como tamanho, estilo de arte, colorida ou não. Entrar em contato, ter dicas para os cuidados com as tatuagens e sobre o estúdio para contrata-lo.
+# Getting Started with Create React App
 
-### Telas
-![image](https://github.com/Beatriz-Chagas/Think/assets/99518259/d0cc4c7e-397d-4f80-b1c5-ea38027195a0)
-> Com layout e design responsivo a plataforma corresponde satisfátoriamente em diversas dimensões e dispositivos.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://github.com/Beatriz-Chagas/Think/assets/99518259/11932ea1-156a-4e06-8334-eb0318cafe00)
->Junto ao projeto principal do site foi programado utilizando Arduino um acessorio para acrescentar a ferramenta de aviso de chegada de um cliente para o tatuador após o leitor captar o código QrCode designado via email para o cliente, quando o agendamento da consulta for efetuado.
+## Available Scripts
 
-#### Processo de Desenvolvimento de Software - PDS
-> O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade do web site. 
-> Utilizando de alguns dos principios do SOLID, como o da segregação "Uma classe não deve ser forçada a implementar interfaces e métodos que não utilizará".
-#### Estudo de Caso – Sistema Integrado de Gestão
-> Trazer para os  microempresários  e  clientes  em  uma ferramenta para coloca-los em contato  através  da  tecnologia, tornando o esforço de marketing.   queremos   melhorar   a   forma   de relacionamento empresário/cliente,  facilitando  o  caminho  entre  os  dois,  tornando  mais  simples  e rápido o encontro dos dois.
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
