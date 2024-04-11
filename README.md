@@ -1,8 +1,8 @@
 # ThINK
 ### Descrição
-> Platarforma em React e NodeJS com banco de dados em MySQl voltada para a captação de clientes, agendamento automatico e gerenciamento de um estudio de tatuagens.
-> A admnistração fica a cargo do tatuador ou de demais responsáveis cadastrados pelo administrador, os serviços oferecidos na rota administrativa são a listagem de clientes cadastrados, agendamento e histórico de sessão de clientes, configuração de portfólio e flashtattos, cadastramento de novos administradores e estoque de materiais disponíveis. 
-> Já na visão dos clientes é possivel visualizar o portfólio do tatuador, se cadastrar, agendar uma sessão para uma tatuagem já existente com um valor fixo por tamanho ou a montagem de um orçamento baseado em informações como tamanho, estilo de arte, colorida ou não. Entrar em contato, ter dicas para os cuidados com as tatuagens e sobre o estúdio para contrata-lo.
+ Platarforma em React e NodeJS com banco de dados em MySQl voltada para a captação de clientes, agendamento automatico e gerenciamento de um estudio de tatuagens.
+ A admnistração fica a cargo do tatuador ou de demais responsáveis cadastrados pelo administrador, os serviços oferecidos na rota administrativa são a listagem de clientes cadastrados, agendamento e histórico de sessão de clientes, configuração de portfólio e flashtattos, cadastramento de novos administradores e estoque de materiais disponíveis. 
+ Já na visão dos clientes é possivel visualizar o portfólio do tatuador, se cadastrar, agendar uma sessão para uma tatuagem já existente com um valor fixo por tamanho ou a montagem de um orçamento baseado em informações como tamanho, estilo de arte, colorida ou não. Entrar em contato, ter dicas para os cuidados com as tatuagens e sobre o estúdio para contrata-lo.
 
 ### Telas
 ![image](https://github.com/Beatriz-Chagas/Think/assets/99518259/d0cc4c7e-397d-4f80-b1c5-ea38027195a0)
