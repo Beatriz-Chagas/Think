@@ -1,0 +1,217 @@
+.menuHome a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menuHome a:hover {
+  color: var(--var-lilas)
+}
+
+.alto-contraste .menuHome a {
+  color: yellow;
+}
+
+.alto-contraste .menuHome a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.menuHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  list-style: none;
+}
+
+.desktop-menuHome {
+  position: relative;
+  display: flex;
+  top: 20px;
+  align-items: center;
+}
+
+.menuHome ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuHome li {
+  margin: 0 50px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.alto-contraste .menuHome li{
+  color: yellow;
+}
+
+.menuHome img {
+  max-height: 100px;
+  width: auto; 
+  height: auto;
+  margin: 0 30px;
+}
+
+.sub-menuHome {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  list-style: none;
+  flex-direction: column;
+  margin-top: 5px !important;
+  
+  text-align: left;
+}
+
+.menuHome li:hover .sub-menuHome {
+  display: block;
+  
+}
+
+.menuHome li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.sub-menuHome li {
+  margin: 15px 0; 
+}
+
+button{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+button:hover{
+  color: var(--var-lilas);
+}
+
+.alto-contraste button{
+  color: yellow;
+}
+
+.alto-contraste button:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 1308px){
+  .menuHome li {
+    margin: 0px 45px
+  }
+}  
+
+@media (max-width: 1284px){
+  .menuHome li {
+    margin: 0px 40px
+  }
+}  
+
+@media (max-width: 1190px){
+  .menuHome li {
+    margin: 0px 35px
+  }
+}
+
+@media (max-width: 1164px){
+  .menuHome li {
+    margin: 0px 30px
+  }
+}
+
+@media (max-width: 1070px){
+  .menuHome li {
+    margin: 0px 25px
+  }
+}
+
+@media (max-width: 1044px){
+  .menuHome li {
+    margin: 0px 20px
+  }
+}
+
+@media (max-width: 948px){
+  .menuHome li {
+    margin: 0px 10px
+  }
+}
+
+@media (max-width: 828px) {
+  .desktop-menuHome {
+    display: none;
+  }
+
+  .mobileHome-menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 40px;
+  right: 50px;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .menu-icon span {
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 5px 0;
+    display: block;
+  }
+
+  .mobileHome-menu-list {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: -140px;
+    right: -50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+
+  .main-menu-item {
+    margin: 10px;
+  }
+
+  .sub-menuHome {
+      position: relative;
+      padding-left: 0px !important;
+  }
+
+  .menuHome li {
+      margin: 0;
+  }
+
+  .menuHome {
+      background-color: transparent;
+  }
+
+  .menuHome ul{
+    padding: 20px;
+  }
+
+  .sub-menuHome ul {
+    padding-left: 15px !important;
+    margin-top: 5px;
+  }
+}
+
+.mobileHome-menu-open .desktop-menuHome {
+  display: none;
+}
