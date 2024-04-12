@@ -1,16 +1,16 @@
-#ThINK
+# ThINK
 
 ### Descrição
 O projeto ThINK é um site gerencial para tatuadores, utilizado individualmente e focado na gestão de um determinado estúdio, facilitando ao tatuador a administração do site e do estúdio de tatuagem (consultas), itens dentro do estoque e descrição da tatuagem requerida pelo cliente.
 
-O sistema não apenas simplifica processos administrativos, mas também cria oportunidades para crescimento, fidelização de clientes e sucesso financeiro a longo prazo para os estúdios de tatuagem. Em última análise, o ThINK não é apenas uma ferramenta, mas uma estratégia estruturada para impulsionar a excelência operacional e a satisfação do cliente nos estúdios de tatuagem.
+O sistema não apenas simplifica processos administrativos, mas também cria oportunidades para crescimento, fidelização de clientes e sucesso financeiro a longo prazo para os estúdios de tatuagem. Em última análise, o ThINK não é apenas uma ferramenta, mas uma estratégia estruturada para impulsionar a excelência operacional e a satisfação do cliente nos estúdios de tatuagem, tudo isso projetado em React e NodeJS com o banco de dados em MySQl.
 
 ### Telas
 ![Captura de tela 2024-04-11 173337](https://github.com/Beatriz-Chagas/Think/assets/99518259/eb37b4b2-8e26-496c-8776-21093ee91f06)
->
+> Através de um layout responsivo e intuitivo o site pode ser utilizado em diversas dimensões e dispositivos.
 .
 ![Captura de tela 2024-04-11 173419](https://github.com/Beatriz-Chagas/Think/assets/99518259/5f9b915f-ce12-426d-a732-85e30fa0c103)
->
+> Junto ao projeto principal foi utilizado de programar um arduino para acrescentar a função de aviso ao tatuador sobre a chegada do cliente ao estudio. Quando efetuado o agendamento de sessão, um QRcode é enviado para o email do cliente para que ele possa mostrar para um leitor na entrada do estudio e irá liberar sua entrada além de avisar o tatuador.
 .
 ## Getting Started with Create React App
 
